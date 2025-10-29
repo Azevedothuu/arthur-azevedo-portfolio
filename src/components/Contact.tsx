@@ -28,12 +28,7 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    {
-      name: "Email",
-      icon: Mail,
-      link: "mailto:contatoarthuraz@gmail.com",
-      color: "hover:text-red-400",
-    },
+   
     {
       name: "LinkedIn",
       icon: Linkedin,
@@ -143,7 +138,6 @@ export default function Contact() {
                 <a
                   key={social.name}
                   href={social.link}
-                  target="_blank"
                   rel="noopener noreferrer"
                   className={`text-accent transition-all duration-300 ${social.color} hover:scale-125`}
                   title={social.name}

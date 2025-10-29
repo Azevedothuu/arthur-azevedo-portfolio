@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -41,7 +41,7 @@ export default function Footer() {
             <h4 className="text-foreground font-semibold mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Azevedothuu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 transition-colors duration-300"
@@ -49,7 +49,7 @@ export default function Footer() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/huazevedo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 transition-colors duration-300"
@@ -57,15 +57,7 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:text-accent/80 transition-colors duration-300"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="mailto:arthur@example.com"
+                href="#contact"
                 className="text-accent hover:text-accent/80 transition-colors duration-300"
               >
                 <Mail className="w-5 h-5" />

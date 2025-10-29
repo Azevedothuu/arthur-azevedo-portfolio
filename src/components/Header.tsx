@@ -15,8 +15,11 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
+      <span className="text-accent drop-shadow-lg" style={{ textShadow: "0 0 20px rgba(96, 165, 250, 0.5)" }}>
+      <h6>Arthur</h6>
+      </span>
+        
 
-        <img className="w-[50px]" src="./public/surfista-prateado.png" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">

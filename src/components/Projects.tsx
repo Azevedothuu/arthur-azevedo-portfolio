@@ -34,14 +34,14 @@ export default function Projects() {
     {
       title: "Card Recipe Main",
       description: "Desafio do Frontend Mentor voltado para praticar a criação de layouts limpos e organizados com HTML e CSS.",
-      technologies: ["HTML", "CSS"],
+      technologies: ["HTML", "CSS", "Conceitos Básicos de Estilização"],
       link: "https://github.com/Azevedothuu/projeto",
       github: "https://azevedothuu.github.io/projeto/",
     },
     {
       title: "React",
       description: "Com React, aprendi a criar interfaces dinâmicas com componentes, estados, propriedades e eventos, entendendo melhor o funcionamento do front-end moderno.",
-      technologies: ["React", "TypeScript", "Storybook", "Tailwind CSS"],
+      technologies: ["React", "TypeScript",  "Tailwind CSS"],
       link: "https://github.com/Azevedothuu/react",
       github: "https://github.com/Azevedothuu/react",
     },
