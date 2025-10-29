@@ -16,11 +16,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
 
-        <a href="#" className="text-2xl font-bold text-accent tracking-wider"
-        
-        >
-          Arthur
-        </a>
+        <img className="w-[50px]" src="./public/surfista-prateado.png" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">

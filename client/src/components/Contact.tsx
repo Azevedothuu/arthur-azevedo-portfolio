@@ -10,10 +10,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_wkief3c",     // 🔹 substitua pelo seu SERVICE ID
-        "template_98xrdow",    // 🔹 substitua pelo seu TEMPLATE ID
+        "service_wkief3c",     //  SERVICE ID
+        "template_98xrdow",    // TEMPLATE ID
         form.current,
-        "0xIsjsGsJGhVYNWSP"       // 🔹 substitua pela sua PUBLIC KEY
+        "0xIsjsGsJGhVYNWSP"       // PUBLIC KEY
       )
       .then(
         () => {

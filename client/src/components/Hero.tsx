@@ -54,7 +54,7 @@ export default function Hero() {
         {/* Description */}
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
           Transformando ideias em experiências web incríveis com React, TypeScript e Next.js.
-          Navegando pelo universo do desenvolvimento front-end como um Sufista.
+          Navegando pelo universo do desenvolvimento front-end como um "Sufista".
         </p>
 
         {/* CTA Buttons */}

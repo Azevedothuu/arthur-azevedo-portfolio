@@ -1,6 +1,10 @@
 export default function About() {
   return (
     <section id="about" className="py-20 px-4 md:px-8 bg-background relative overflow-hidden">
+
+    
+
+
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-accent/10 rounded-full blur-3xl opacity-20" />
 
