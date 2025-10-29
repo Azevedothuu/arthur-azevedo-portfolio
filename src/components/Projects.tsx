@@ -21,8 +21,8 @@ export default function Projects() {
       title: "QRCode Card Preview",
       description: "Desafio finalizado do Frontend Mentor para treinar estruturação com HTML e estilização moderna com CSS.",
       technologies: ["HTML", "CSS"],
-      link: "#",
-      github: "#",
+      link: "https://azevedothuu.github.io/ComponenteQRCODE/",
+      github: "https://github.com/Azevedothuu/ComponenteQRCODE",
     },
     {
       title: "Task Rocketseat",
@@ -42,8 +42,8 @@ export default function Projects() {
       title: "React",
       description: "Com React, aprendi a criar interfaces dinâmicas com componentes, estados, propriedades e eventos, entendendo melhor o funcionamento do front-end moderno.",
       technologies: ["React", "TypeScript", "Storybook", "Tailwind CSS"],
-      link: "#",
-      github: "#",
+      link: "https://github.com/Azevedothuu/react",
+      github: "https://github.com/Azevedothuu/react",
     },
   ];
 
